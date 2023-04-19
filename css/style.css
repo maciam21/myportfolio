@@ -1,0 +1,258 @@
+/* Global Styles */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+
+
+h1 {
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.heading-text {
+  font-size: 4em;
+}
+
+section {
+  padding: 5em 0;
+}
+
+.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+/* Masthead Styles */
+header.masthead {
+  position: relative;
+  background-image: url("https://i.ibb.co/C04GkDY/Cover-Portfolio.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding: 6em 0;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding: 11em 0;
+  }
+}
+
+header.masthead .overlay {
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  opacity: 0.7;
+}
+.lead {
+  vertical-align: middle }
+
+
+
+/* Services Section */
+section.services {
+  position: relative;
+  background-image: url("https://i.ibb.co/YddMBbq/Long-Portfolio.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.services .overlay {
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  background-color: #212529;
+  opacity: 0.7;
+}
+
+.services .service-icon {
+  height: 7em;
+}
+
+.services .service-icon i {
+  font-size: 5em;
+}
+
+.services .service-icon i:hover {
+  font-size: 6em;
+}
+
+/* Portfolio Section */
+section.portfolio {
+  padding-bottom: 0;
+}
+
+.portfolio-header {
+  margin-bottom: 5em;
+}
+
+.portfolio .portfolio-image {
+  min-height: 30rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.portfolio .item-1 {
+  background-image: url("https://i.ibb.co/9wVcJb2/Kobe-Page-1.png");
+}
+
+.portfolio .item-2 {
+  background-image: url("https://i.ibb.co/tMGYfnQ/Kobe-Page-2.png");
+}
+
+.portfolio .item-3 {
+  background-image: url("https://i.ibb.co/mqSQnC2/Kobe-Page-3.png");
+}
+
+.portfolio .portfolio-text {
+  padding: 8em;
+}
+
+
+
+.date-formed {
+  color:plum;
+}
+
+.rating_color {
+  color:white;
+}
+
+.far {
+  color: white;
+}
+ul {
+  list-style-type: none;
+  overflow: auto;
+  display: inline-block;
+
+ 
+}
+
+.form {
+  background-color: yellow;
+}
+
+
+
+/* Contact Section */
+.contact .contact-icon {
+  height: 7em;
+}
+
+.contact .contact-icon i {
+  font-size: 5em;
+}
+
+.contact .contact-icon i:hover {
+  font-size: 6em;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 300px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 300px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 567em) {
+    body {
+      margin-bottom: 700px;
+    }
+    .footer {
+      height: 700px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding: 11em 0;
+  }
+}
